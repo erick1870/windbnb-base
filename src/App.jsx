@@ -31,12 +31,12 @@ function App() {
   return (
     
     <>
-    
+      <Cards />;
       {/* Aquí te dejo un ejemplo de cómo podrías imprimir varios elementos a la vez. */}
       {data.map((el, i) => {
         return <h1 key={i}>{el.city}</h1>;
       })}
-      <Cards />;
+      
     </>
   );
 }
